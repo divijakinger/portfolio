@@ -1,0 +1,80 @@
+body{
+    background-color: #333238;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.vl {
+    border-left: 2px solid white;
+    height: 30vw;
+    margin-left: 10%;
+  }
+
+
+  .typing-demo {
+    width: 35ch;
+    animation: typing 2s steps(35), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2vw;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+.cv-btn:hover{
+    background-color: #FCB3B7 ;
+}
+
+.skills-card{
+    background: #4E4E58;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.skills-card:hover{
+    background: #EED6D3;
+    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25);
+    color: #4E4E58;
+}
+
+.project-card{
+    background: #47484A;
+}
+
+.project-btn{
+    color: #EED6D3 !important;
+}
+
+.shrink-on-hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .shrink-on-hover:hover, .shrink-on-hover:focus, .shrink-on-hover:active {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
